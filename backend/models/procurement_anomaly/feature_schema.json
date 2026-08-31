@@ -1,0 +1,49 @@
+{
+  "features": [
+    {
+      "name": "bid_count",
+      "type": "float",
+      "description": "Total number of bids submitted by the bidder across all tenders."
+    },
+    {
+      "name": "win_rate",
+      "type": "float",
+      "description": "Ratio of awarded bids to total submitted bids (0.0 to 1.0)."
+    },
+    {
+      "name": "shared_address_count",
+      "type": "float",
+      "description": "Count of distinct bidders sharing registered business address."
+    },
+    {
+      "name": "shared_director_count",
+      "type": "float",
+      "description": "Count of distinct bidders sharing common corporate directors."
+    },
+    {
+      "name": "shared_bank_account_count",
+      "type": "float",
+      "description": "Count of distinct bidders sharing identical bank account identifiers."
+    },
+    {
+      "name": "verification_mismatch_count",
+      "type": "float",
+      "description": "Count of government verification API mismatches (GST/MCA/PAN)."
+    },
+    {
+      "name": "document_contradiction_count",
+      "type": "float",
+      "description": "Count of cross-document financial or identifier contradictions."
+    },
+    {
+      "name": "compliance_failure_count",
+      "type": "float",
+      "description": "Count of failed mandatory tender requirements."
+    },
+    {
+      "name": "network_centrality",
+      "type": "float",
+      "description": "Degree/Betweenness network centrality score within entity graph."
+    }
+  ]
+}

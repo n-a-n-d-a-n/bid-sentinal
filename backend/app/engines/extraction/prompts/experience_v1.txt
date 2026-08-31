@@ -1,0 +1,3 @@
+Extract experience certificate details from document text.
+Extract client_name, project_title, contract_value_inr, completion_date, and certificate_number.
+Provide confidence (0.0 to 1.0) and quote exact text_excerpt as evidence.

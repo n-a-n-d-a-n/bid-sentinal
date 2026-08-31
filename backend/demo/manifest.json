@@ -1,0 +1,27 @@
+{
+  "project": "PROCUREX",
+  "tagline": "Verify. Explain. Detect. Decide.",
+  "sih_problem_statement": "SIH26100",
+  "version": "1.0.0",
+  "total_scenarios": 23,
+  "scenarios": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W"],
+  "required_services": [
+    "PostgreSQL + pgvector",
+    "Redis",
+    "MinIO",
+    "FastAPI Backend",
+    "Nginx"
+  ],
+  "required_models": [
+    "IsolationForest Anomaly Model (procurement_anomaly_v1.0)",
+    "MiniLM Embedding Model (sentence-transformers)"
+  ],
+  "required_policy_corpus": [
+    "General Financial Rules (GFR 2017)",
+    "GeM Procurement Manual v4.0"
+  ],
+  "execution_modes": [
+    "FULL_RUN",
+    "STEP_BY_STEP"
+  ]
+}

@@ -1,0 +1,3 @@
+Extract tender requirements and details from the document text.
+Extract tender_number, title, issuing_authority, publication_date, submission_deadline, estimated_value, and EMD amount.
+Provide confidence (0.0 to 1.0) and quote exact text_excerpt as evidence.

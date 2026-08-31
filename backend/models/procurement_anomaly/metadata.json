@@ -1,0 +1,19 @@
+{
+  "model_name": "procurement_anomaly_v1.0",
+  "model_type": "IsolationForest",
+  "version": "1.0.0",
+  "created_at": "2026-08-30T10:00:00Z",
+  "framework": "scikit-learn",
+  "framework_version": "1.5.1",
+  "contamination": 0.05,
+  "n_estimators": 100,
+  "random_state": 42,
+  "feature_count": 9,
+  "dataset_population": "Synthetic Demonstration Dataset (1000 observations)",
+  "governance": {
+    "output_label": "PROCUREMENT ANOMALY SCORE",
+    "is_advisory": true,
+    "accusatory_terms_prohibited": true,
+    "human_in_the_loop": true
+  }
+}
